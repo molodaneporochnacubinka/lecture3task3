@@ -1,0 +1,31 @@
+{
+  "name": "lecture3-task3-esm",
+  "version": "1.0.0",
+  "description": "Task for ESM",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server src",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/molodaneporochnacubinka/lecture3task3.git"
+  },
+  "author": "anouk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/molodaneporochnacubinka/lecture3task3/issues"
+  },
+  "homepage": "https://github.com/molodaneporochnacubinka/lecture3task3#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "live-server": "^1.2.1"
+  }
+}
